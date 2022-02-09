@@ -1,7 +1,7 @@
 import InsectClass as I 
 
 def main():
-    fly = I.Insect()
+    fly = I.Insect(2,4) #these are the arguements for w and l 
 
 
     print('ten random flight lengths')
