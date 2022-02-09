@@ -6,8 +6,8 @@ def main():
 
     print('ten random flight lengths')
 
-    for flights in range(10):
-        fly.flight()
+    for value in range(10):
+        fly.length_flight()
         print('The value of the flight is', fly.get_flight())
     
 

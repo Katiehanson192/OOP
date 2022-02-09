@@ -6,8 +6,8 @@ class Insect:
         self.legs = 4
         self.flight = 0  #need to first initialize it to start at 0
 
-    def flight(self):
-        random.randint(1, 10)
+    def length_flight(self):
+        self.flight = random.randint(1, 10)
 
     def get_flight(self):
         return self.flight #need a second method to return the value of the flight
