@@ -1,12 +1,12 @@
 class CellPhone:
     
-    def __init__(self, manu, mod, price):
-        self.__manufact = manu
-        self.__model = mod
-        self.__retail_price = price
+        def __init__(self, mfg, mod, cost):
+            self.__manufact = mfg
+            self.__model = mod
+            self.__retail_price = cost
 
-        def set_manufact(self, manu): # need to always include the "self" arguement when seting a function/attribute
-            self.__manufact = manu
+        def set_manufact(self, mfg): # need to always include the "self" arguement when seting a function/attribute
+            self.__manufact= str(mfg)
 
 
         def get_manufact(self): 
@@ -16,7 +16,7 @@ class CellPhone:
 
 
         def set_model (self, mod):
-            self.__model = mod
+            self.__model = str(mod)
 
 
         def get_model (self):
@@ -25,9 +25,9 @@ class CellPhone:
 
 
 
-        def set__retail_price(self, price):
-            self.__retail_price = price
+        def set_retail_price(self, cost):
+            self.__retail_price = cost
 
-        def get__retail_price(self):
+        def get_retail_price(self):
             return self.__retail_price
         
