@@ -1,6 +1,6 @@
 #Once you have written the class, write a program that creates three RetailItem objects and stores the following data 
 
-from cmath import cos
+
 import RetailItemClass as ri
 
 def main():
