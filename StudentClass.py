@@ -36,8 +36,5 @@ class StudentClass:
         
 
 
-
-
-
     def get_grade(self):
         return self.__Student_classification
